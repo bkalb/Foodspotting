@@ -1,0 +1,79 @@
+body {
+    background: url('/images/bg.png') repeat;
+    font-size: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header nav li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 8px;
+}
+
+li span {
+    display: block;
+    color: gray;
+    font-size: .6em;
+    margin-top: 6px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+footer h1 {
+    font-size: 2em;
+}
+
+.feature {
+    background: white;
+    padding: 0 10px;
+}
+
+.feature h2 {
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.feature h2 span {
+    font-weight: normal;
+}
+
+.photo-box {
+    font-size: 0;
+    background: url('/images/bg.png') repeat;
+    margin-bottom: 16px;
+}
+
+.photo-box img {
+    display: inline-block;
+    width: 46%;
+    margin: 2%
+}
+
+figure {
+    float: right;
+    width: 45%;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    background-color: #3B3A38;
+    color: #D9F0AE;
+    padding: 3px;
+    font-size: .8em;
+
+}
+
+.mobilehidden {
+    display: none;
+}
